@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@200;300;400&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins , sans-serif;
+}
+
+.button{
+    background-color: #2bff00;
+    font-size: 1.5em;
+    display: flex;
+    padding: 10px ;
+    color: #000;
+    border-radius: 10px ;
+    box-shadow: -3px 3px 3px #000;
+}
+
+.wrap{
+    width: min(1300px , 90%);
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: left;
+    color: #fff;
+    font-style: italic;
+    font-family: Heebo ;
+}
+
+section{
+    min-height: 100vh;
+    // margin-top: 2em;
+}
